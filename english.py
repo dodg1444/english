@@ -2,7 +2,7 @@ from random import randint
 from sys import exit
 from time import sleep
 from threading import Thread
-words_all = ['''''', '''wrist - запястье
+words_all = ['''''', '''wrist - запястье # list of your words
 cultivate - возделывать, культивировать
 catchy - броский
 compose - сочинять
