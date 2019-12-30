@@ -2,7 +2,7 @@ from random import randint
 from sys import exit
 from time import sleep
 from threading import Thread
-words_all = ['''''', '''wrist - запястье # list of your words
+words_all = ['''''', '''wrist - запястье
 cultivate - возделывать, культивировать
 catchy - броский
 compose - сочинять
@@ -75,7 +75,7 @@ mist - туман
 insurance - страховка
 linen - льняной, полотно
 liquid - жидкость, жидкий
-ornament - украшение, украшать''','''excess - лишний
+ornament - украшение, украшать''', '''excess - лишний
 paste - вставить, наклеить
 plant - завод, растение, сажать
 polish - лак, полировать
@@ -96,7 +96,7 @@ statement - заявление
 steam - пар
 stitch - стежок, шить
 stretch - протяжение, растягивать
-substance - вещество''','''off - прочь, от
+substance - вещество''', '''off - прочь, от
 on - на
 though - хотя
 chief - главный
@@ -105,13 +105,13 @@ hang - висеть
 past - мимо, прошлый
 acid - кислота
 fixed - неподвижный
-conscious - сознательный''','''equal - равный
+conscious - сознательный''', '''equal - равный
 frequent - частый
 hollow - пустота
 probable - возможный
 porter - портье
 powder - порошок, напудрить
-prose - проза''','''tax - налог, облагать налогом
+prose - проза''', '''tax - налог, облагать налогом
 tin - банка
 vessel - судно, сосуд
 redundant - лишний
@@ -120,13 +120,13 @@ thick - толстый, густо
 violent - жестокий
 responsible - ответственный
 stiff - жесткий
-bitter - горький, жестокий''','''cruel - жестокий
+bitter - горький, жестокий''', '''cruel - жестокий
 delicate - нежный, тонкий
 feeble - слабый
 foolish - глупый
 loose - свободный
 solid - твердый
-delicious - вкусный''','''abolish - отменять
+delicious - вкусный''', '''abolish - отменять
 addiction - зависимость
 amateur - любитель
 ambassador - посол
@@ -135,7 +135,7 @@ arrange - организовывать
 arrogant - высокомерный
 boast - хвастаться
 canteen - столовая
-celebrity - знаменитость''','''confidence - уверенность
+celebrity - знаменитость''', '''confidence - уверенность
 contribute - делать вклад
 tribute - дань
 correspondence - переписка
@@ -144,7 +144,7 @@ crawl - ползать
 dedication - верность
 dedicate - посвящать
 descend - спускаться
-deteriorate - ухудшать''','''dismiss - отклонять
+deteriorate - ухудшать''', '''dismiss - отклонять
 dissolve - расстворять
 district - район
 elaborate - разрабатывать
@@ -153,7 +153,7 @@ emergency - критическое положение
 entourage - окружение
 evidence - доказательство
 extinction - вымирание
-famine - голод''','''flood - потоп
+famine - голод''', '''flood - потоп
 generosity - щедрость
 gluttony - обжорство
 hiccup - икота
@@ -162,7 +162,7 @@ interpret - толковать
 maintain - поддерживать
 mature - зрелый
 naughty - непослушный
-persuade - убеждать''','''clay - глина
+persuade - убеждать''', '''clay - глина
 violation - нарушение
 negotiate - вести переговоры
 contrition - раскаяние
@@ -171,7 +171,7 @@ attend - посещать
 nasty - противный
 promotion - продвижение
 prosecutor - прокурор
-quarrel - ссора''','''rapport - хорошее отношение
+quarrel - ссора''', '''rapport - хорошее отношение
 referee - судья
 reference book - справочник
 rehearsal - репетиция
@@ -180,7 +180,7 @@ resentment - негодование
 ruthless - безжалостный
 satchel - сумка
 spokesman - представитель
-squeeze - сжимать''','''stationary - неизменный
+squeeze - сжимать''', '''stationary - неизменный
 sufficient - достаточный
 superstition - суеверие
 surveyor - землемер
@@ -189,7 +189,7 @@ vain - тщеславный
 valuable - ценный
 withdraw - извлекать
 obsession - одержимость
-rust - ржаветь''','''confess - признаваться
+rust - ржаветь''', '''confess - признаваться
 felony - уголовное преступление
 circumstances - обязательства
 untenable - ненадежный
@@ -198,7 +198,7 @@ mortgage - ипотечный кредит
 spank - шлепок, шлепать
 offence - обида, преступление
 restroom - уборная
-make a sense - иметь смысл''','''noble - благородный
+make a sense - иметь смысл''', '''noble - благородный
 impose - навязывать
 aware - знать
 envy - зависть, завидовать
@@ -207,7 +207,7 @@ witness - свидетель
 mascot - талисман
 capable - способный
 groom - жених
-bride - невеста''','''bargain - сделка
+bride - невеста''', '''bargain - сделка
 douse - окунать
 compassion - сострадание
 curious - любопытный
@@ -216,7 +216,7 @@ bugger - мудак
 embrace - объятия, охватывать
 spit it out - выкладывай
 roam - странствовать
-odd - странный''','''eternity - вечность
+odd - странный''', '''eternity - вечность
 renege - отрекаться
 steep - крутой
 torture - пытка, пытать
@@ -225,7 +225,7 @@ parley - переговоры
 oblivion - забвение
 lately - недавно
 abasement - унижение
-abhor - ненавидеть''','''abrasive - резкий
+abhor - ненавидеть''', '''abrasive - резкий
 absolution - освобождение
 abstain - воздерживаться
 abstemious - скромный
@@ -234,7 +234,7 @@ affliction - страдание
 relent - смягчать
 avert - отводить
 shatter - разбить
-glimmer - мерцание, мерцать''','''affluent - изобильный
+glimmer - мерцание, мерцать''', '''affluent - изобильный
 alacrity - готовность
 excitement - волнение
 envelope - конверт
@@ -243,7 +243,7 @@ dandelion - одуванчик
 ham - ветчина
 alleviate - облегчать
 ambiguous - двусмысленный
-animosity - враждебность''','''spot - пятно, определить
+animosity - враждебность''', '''spot - пятно, определить
 demand - требовать
 whiskers - бакенбарды
 handkerchief - носовой платок
@@ -252,7 +252,7 @@ dining - обеденный
 properly - должным образом
 deaf - глухой
 be around - быть рядом
-louse - вошь''','''brusque - бесцеремонный, грубый
+louse - вошь''', '''brusque - бесцеремонный, грубый
 capricious - капризный
 charisma - харизма
 upset - опрокидывать
@@ -261,7 +261,7 @@ complicity - соучастие
 comprehensive - всесторонний
 concoct - состряпать
 counterfeit - подделка
-covert - убежище''','''start for - отправляться в
+covert - убежище''', '''start for - отправляться в
 pour - наливать
 cellar - погреб
 gust - порыв
@@ -270,7 +270,7 @@ shave - брить
 resign - уходить в оставку
 reckless - безрассудный
 foil - фольга
-insult - оскорбление, оскорблять''','''bigot - фанатик
+insult - оскорбление, оскорблять''', '''bigot - фанатик
 sight - вид
 pile - куча
 bilk - жулик, обманывать
@@ -279,7 +279,7 @@ beg - просить
 purse - кошелек
 gleam - мерцать
 sober - трезвый
-tremble - дрожать''','''broth - бульон
+tremble - дрожать''', '''broth - бульон
 upside down - кверху дном
 to faint - потерять сознание
 cower - сжиматься
@@ -288,7 +288,7 @@ I wonder - интересно
 afford - позволить себе
 distraction - отвлечение
 violate - нарушать
-scuff - протереться''','''creditable - похвальный
+scuff - протереться''', '''creditable - похвальный
 cringe - раболепствовать
 cryptic - загадочный
 deceive - обманывать
@@ -297,7 +297,7 @@ peel - корка
 dizzy - головокружительный
 broth - бульон
 tremble - дрожать
-no clue - без понятия''','''consistent - последовательный
+no clue - без понятия''', '''consistent - последовательный
 talon - коготь
 funky - трусливый
 chew - жевать
@@ -306,7 +306,7 @@ robust - крепкий
 ditch - угробить, губить
 burden - бремя
 loony - чокнутый
-catch up - догонять''','''engage - вовлекать
+catch up - догонять''', '''engage - вовлекать
 occasion - повод
 seal - печать, запечатывать
 foretell - предсказывать
@@ -315,7 +315,7 @@ villainy - злодейство
 treason - измена
 impale - прокалывать
 swirling - завихрение
-dubious - сомнительный''','''sorcery - колдовство
+dubious - сомнительный''', '''sorcery - колдовство
 heels - каблуки
 sprightly - оживленно
 filthy - отвратительный
@@ -324,7 +324,7 @@ attain - достигать
 quench - утолять жажду
 anxious - тревожный
 I fancy - мне кажется
-giddiness - головокружение''','''cherish - лелеять
+giddiness - головокружение''', '''cherish - лелеять
 behold - созерцать, вот
 startle - напугать
 intentionally - намеренно
@@ -333,7 +333,7 @@ foreign currency - иностранная валюта
 epiphany - прозрение
 shy - застенчивый, робкий
 lure - приманка, завлекать
-demise - кончина''','''blend - смесь, смешивать
+demise - кончина''', '''blend - смесь, смешивать
 decay - распад, распадаться
 expel - исключать
 fickle - непостоянный
@@ -342,7 +342,7 @@ predisposition - предрасположение
 detention - заключение под стражу
 wit - остроумие
 fascinating - очаровательный
-grasp - схватывание, понять''','''menace - угроза, угрожать
+grasp - схватывание, понять''', '''menace - угроза, угрожать
 rebellion - бунт, восстание
 prod - тычок, подталкивать
 persistence - упорство
@@ -351,7 +351,7 @@ dimple - ямочка
 ancestors - предки
 pester - донимать
 contest - конкурс
-imply - подразумевать''','''tip - подсказка, чаевые
+imply - подразумевать''', '''tip - подсказка, чаевые
 immediately - немедленно
 humid - влажный
 midget - карлик
@@ -360,7 +360,7 @@ inception - начало
 conjure - колдовать
 vicious - злобный
 fraud - мошенник
-innocent - невинный''','''haste - поспешность
+innocent - невинный''', '''haste - поспешность
 chores - хлопоты
 prosperity - процветание
 revelation - откровение
@@ -369,17 +369,17 @@ remedy - средство, лекарство
 boar - кабан
 intimidate - запугивать
 haunt - преследовать
-avalanche - лавина, обвал''','''treacherous - предательский, коварный
+avalanche - лавина, обвал''', '''treacherous - предательский, коварный
 sane - здравомыслящий
 fornicate - блудить
 wicked - круто, клево
 abduct - похищать
 partake - принимать участие
-bona_fide — добросовестный
+bona_fide - добросовестный
 consider - рассматривать возможность
 wack - псих
 eviction - выселение
-stroll - прогулка''','''affair - дело
+stroll - прогулка''', '''affair - дело
 propose - предлагать
 merely - просто
 wrap - обертка, заворачивать
@@ -388,7 +388,7 @@ couch - диван
 stove - плита
 serenity - спокойствие
 dork - придурок
-apparently - по всей видимости''','''renovation - ремонт
+apparently - по всей видимости''', '''renovation - ремонт
 feign - симулировать
 vigilant - бдительный
 cubs - детеныши
@@ -397,7 +397,7 @@ deliberately - сознательно
 jeopardize - подвергать опасности
 meticulous - дотошный
 endure - терпеть
-ferocious - свирепый''','''bleak - мрачный
+ferocious - свирепый''', '''bleak - мрачный
 frolic - резвость, резвиться
 evenly - равномерно
 sin - грех, грешить
@@ -406,7 +406,7 @@ conform - соответствовать
 lush - пышный
 fidget - непоседа, ерзать
 elusive - неуловимый
-inevitable - неизбежный''','''exhausted - истощен
+inevitable - неизбежный''', '''exhausted - истощен
 sweep - сметать
 seduce - соблазнять
 malware - вредоносные программы
@@ -415,7 +415,7 @@ sobbing - рыдания
 neat - опрятный
 fugitive - беглец
 commitment - обязательство
-obtain - получать''','''caveat - предостережение
+obtain - получать''', '''caveat - предостережение
 sore - огорченный, воспаленный
 desperate - отчаянный
 gullible - доверчивый
@@ -424,7 +424,7 @@ devastating - разрушительный, опустошительный
 complicit - замешанный
 implicit - неявный
 explicit - явный
-gently - осторожно''','''mishap - несчастье
+gently - осторожно''', '''mishap - несчастье
 prophet - пророк
 hasty - поспешный
 preoccupied - озабоченный
@@ -433,7 +433,7 @@ enchanted - околдовывать, очаровывать
 tidings - новости
 my condolences - мои соболезнования
 courtesy - вежливость
-interfere - вмешиваться''','''mock - высмеивать
+interfere - вмешиваться''', '''mock - высмеивать
 precise - точный
 virtuous - добродетельный
 prudence - предусмотрительность
@@ -442,7 +442,7 @@ contaminate - загрязнять, осквернять
 get along - ладить
 gossipy - болтливый
 capacity - вместимость
-insane - ненормальный, безумный''','''threshold - порог, предел
+insane - ненормальный, безумный''', '''threshold - порог, предел
 vulnerability - уязвимость
 vast - простор, обширный
 assignment - задание, назначение
@@ -550,7 +550,54 @@ stumble - спотыкаться
 con man - аферист
 boisterous - шумный
 disgruntled - недовольный, рассерженный
-pledge - обещание, обещать''']
+pledge - обещание, обещать''', '''wind up - оказываться
+malnourished - недоедающий
+ransom - выкуп, выкупать
+giddy - головокружительный
+mercifully - милосердно
+selfish - эгоистичный
+chuffed - самодовольный
+embittered - озлобленный
+ribbon - лента, ленточный 
+sustenance - средства к существованию''', '''famished - изголодавшийся
+snug - уютно, аккуратный
+mend - улучшение, чинить
+despondent - унылый
+lavatory - уборная
+fractious - капризный
+battered - потрепанный
+swarm - рой, роиться
+massacre - резня, устраивать резню
+puncture - прокол, прокалывать''', '''dignified - величавый, достойный
+fragile - хрупкий
+dull - тупой
+sombre - мрачный
+mesmerizing - гипнотизирующий
+stagger - шататься, ошеломлять
+wobbly - шаткий
+primordial - первобытный
+halt - остановка, останавливать
+appalling - ужасающий''', '''perilous - рискованный
+tide - волна
+wuss - слабак
+poke - тычок, толкать
+drizzle - моросить, морось
+obtuse - тупой
+nimble - проворный
+friction - трение
+ruminate - раздумывать
+frankly - откровенно''', '''concede - уступать
+reluctantly - неохотно
+fuss - суетиться
+ludicrously - смехотворно
+exquisite - утонченный, изысканный
+succulent - сочный
+agenda - планы на день
+mediocre - посредственный
+fraternity - братство
+flunk - полный провал, провалить''', '''precaution - предосторожность
+wager - пари
+so long - пока''']
 
 words_dict = {}
 
