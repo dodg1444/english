@@ -1589,3 +1589,94 @@ debacle, разгром
 tardiness, опоздание, медлительность
 congenial, благоприятный
 crock, черепок, посуда, вымотаться
+stag, олень, холостяцкий
+status quo, текущее положение дел
+parochial, приходской, местный
+lament, похоронная песнь, оплакивать
+kin, род
+aback, опешить, назад
+stump, пень, корчевать
+esquire, оруженосец
+fealty, верность
+crag, скала, утес
+buzzword, умное словечко, модное слово
+proliferation, распространение
+hamper, мешать, препятствовать
+laurels, лавры, почести
+intrinsics, внутренняя сущность
+impoverish, обеднять, подрывать
+coarse, грубый, крупный
+curriculum, учебный план
+jaded, измученный, присытившийся
+wart, бородавка, нарост
+swot, зубрить
+deem, считать, полагать
+sloppiness, неряшливость
+rules of thumb, эмпирические правила
+proponent, сторонник, защитник
+sieve, сито
+lubricate, смазывать
+venue, место встречи
+gratuitous, безвозмездный, даровой
+moniker, прозвище
+martyr, мученик
+precipitation, осадки
+beatify, благославлять
+roster, список
+gist, суть
+facetious, шутливый
+formerly, ранее, прежде
+strive, стремиться
+sake, ради
+procurement, обеспечение, поставка
+ply, слой
+abound, изобиловать
+excerpt, выдержка, отрывок
+implication, значение, смысл
+ditto, то же самое
+adornment, украшение
+foliage, листва
+foster, взращивать, поощрять
+alas, увы
+omission, упущение, пропуск
+snarky, язвительный
+wench, девка
+audacity, мужество, смелость
+hound, гончая
+derision, насмешки, осмеяние
+inference, вывод, заключение
+epitome, воплощение
+augment, увеличение, прибавлять
+vex, досаждать, раздражать
+inadvertently, нечаянно
+compelling, неотразимый, непреодолимый
+wanton, бессмысленный, распутный
+gauge, измерять, оценивать
+contemplate, обдумывать, лицезреть
+berth, койка, причал
+mull, обдумывать, размышлять
+contort, искривлять, искажать
+fortnight, две недели
+predate, предшествовать
+eminently, в высшей степени
+incentive, стимул
+kindle, зажигать
+pejorative, уничижительный, бранный
+genteel, благородный, благовоспитанный
+lest, чтобы не, как бы не
+blithely, беспечно
+parlance, язык, манера выражения
+ostensible, мнимый
+hoax, фальсификация, обман
+subsequently, впоследствии
+hinder, мешать, препятствовать
+dispensation, разрешение, распределение
+grind, измельчать
+contend, бороться, соперничать
+udder, вымя
+obviate, устранять, избегать
+disparate, несопоставимый
+bedrock, коренная порода
+pout, гримаса, дуться
+comprise, включать, содержать
+unprecedently, беспрецедентно
