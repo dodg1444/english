@@ -38,7 +38,7 @@ def english(some_list, language):
 				words.append(word)
 			len1 = len(str(some_list))
 			for k in range(len(words)):
-				if words[k] == 'pass':
+				if words[k] == 'skip':
 					del some_list[rand]
 					break
 				if words[k] in str(some_list):
@@ -84,7 +84,7 @@ def english(some_list, language):
 				words.append(word)
 			len1 = len(str(some_list))
 			for k in range(len(words)):
-				if words[k] == 'pass':
+				if words[k] == 'skip':
 					del some_list[rand]
 					break
 				if words[k] in str(some_list):
@@ -217,6 +217,9 @@ def test(the_list):
 	clear_screen()
 
 	while len(list_of_sentences) != 0:
+		#print("Here is the dict ----> ", synonym_dict)
+		#print("Here is the list ----> ", list_of_sentences)
+		#print("Here is the the_list ----> ", the_list)
 
 		random_int = randint(0, len(list_of_sentences)-1)
 		if len(list_of_sentences[random_int]) > 1:
@@ -278,7 +281,7 @@ help 			shows this message\n\
 clear			clears screen (actually just makes 50 enters\n\
 test [number]		test yourself with examples and synonyms (type hint)\n\
 \n\n\n\
-Tip: You can skip a word by typing <pass> as a translation'
+Hint: You can skip a word by typing <skip> as a translation'
 
 
 amount_of_words = 10
